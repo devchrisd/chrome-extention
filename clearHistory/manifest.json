@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "Clear Browser History",
+    "description": "This extension will clear browser history",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "clear.png",
+        "default_popup": "clear.html"
+    },
+    "permissions": ["activeTab"]
+}

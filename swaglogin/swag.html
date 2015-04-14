@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>Swagbucks Search</title>
+    <script src="swag.js"></script>
+    <link rel="stylesheet" type="text/css" href="swag.css"/>
+</head>
+<body>
+    <div class="formSection">
+        <form id="loginForm" method="post" action="http://www.swagbucks.com/p/login/?cmd=ac-login-post" />
+
+            <input type="hidden" name="__mBfuPAgT" value="beecf2aeb2b37d9332c3d02c478a809feb6f432d95515cfd5f6ddd36d95f17b5" id="sbxJxRegAuthToken" />
+            <input type="hidden" name="isLoginPage" value="true" />
+
+            <input id="sbxJxRegEmail" name="emailAddress" type="text" value="dplay"/>
+            <input id="sbxJxRegPswd" name="password" type="password" value=""/>
+
+            <div id="homeSignupRemember">
+                <label for="signUpRememberMe">
+                    <input type="checkbox" id="signUpRememberMe" name="persist" checked="checked" value="on"/><span>Remember me</span>
+                </label>
+            </div>
+
+            <input type="submit" value="Login" />
+        </form>
+    </div>
+</body>
+</html>
