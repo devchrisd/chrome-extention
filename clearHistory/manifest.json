@@ -9,5 +9,5 @@
         "default_icon": "clear.png",
         "default_popup": "clear.html"
     },
-    "permissions": ["activeTab"]
+    "permissions": ["history"]
 }
