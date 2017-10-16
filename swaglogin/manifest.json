@@ -9,5 +9,10 @@
         "default_icon": "swag.png",
         "default_popup": "swag.html"
     },
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab"],
+
+    "background": {
+        "scripts": ["swag_back.js"],
+        "persistent": false // set as an event page
+    }
 }

@@ -1,7 +1,8 @@
+
 document.addEventListener('DOMContentLoaded', function() {
 
-    var loginform = document.getElementById('loginForm');
-    // loginform.submit();
+    chrome.runtime.getBackgroundPage( function () {
+        window.open('http://www.swagbucks.com/?cmd=home');
+    });
 
-    window.open('http://www.swagbucks.com/?cmd=home');
 }, false);
